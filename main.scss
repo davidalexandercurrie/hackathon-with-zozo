@@ -1,8 +1,11 @@
 html,
 body {
   margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   /* This centers our sketch horizontally. */
-  justify-content: center;
 }
 #textField {
   border: 2px solid black;
@@ -20,9 +23,30 @@ body {
   height: 2em;
 }
 #ui {
+  display: inline-block;
   border: 2px solid blue;
-  width: 50%;
+  width: 40%;
+  vertical-align: top;
+  padding: 20px;
+  margin-left: 20px;
+}
+#title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  text-align: center;
+  margin: 5px;
 }
 #canvas {
-  border: 2px solid black;
+  position: absolute; /*or fixed*/
+  right: 0px;
+  padding: 20px;
+  display: inline-block;
+  border: 2px solid blue;
+  height: 400px;
+  width: 400px;
+  margin-right: 20px;
+}
+.player {
+  display: inline-block;
+  width: 49%;
 }

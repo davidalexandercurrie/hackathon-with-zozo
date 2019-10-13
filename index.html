@@ -24,7 +24,9 @@
     <script src="sketch.js"></script>
 
   </head>
-  <body><div id="ui">
+  <body>
+    <h1 id="title">Factory Workers</h1>
+    <div id="ui">
       <div id="textField"><p id="text"></p></div>
       <label>X
         <input id="X" type="text" onkeyup="Changed()" autocomplete="off" />
@@ -33,14 +35,19 @@
         <input id="Y" type="text" onkeyup="Changed()" autocomplete="off" />
       </label>
       <button id="selectButton" onClick="selectClicked()">select</button>
+      <div>
+        <div class="player">
+          <h3>P1</h3>
+          <p id="p1metal">Metal:</p>
+          <p id="p1energy">Energy:</p>
+        </div>
+        <div class="player">
+          <h3>P2</h3>
+          <p id="p2metal">Metal:</p>
+          <p id="p2energy">Energy:</p>
+        </div>
+      </div>
     </div>
-    <div class="player">
-      <h3>P1</h3>
-      <p id="p1metal"></p>
-    </div>
-    <div class="player">
-      <h3>P2</h3>
-      <p id="p2metal"></p>
-    </div>
+    <div id="canvas"></div>
   </body>
 </html>
