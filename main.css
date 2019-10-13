@@ -1,20 +1,38 @@
 html,
 body {
-  height: 100%;
-}
-
-body {
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   /* This centers our sketch horizontally. */
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /* This centers our sketch vertically. */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+#textField {
+  border: 2px solid black;
+}
+
+#X {
+  width: 20px;
+}
+
+#Y {
+  width: 20px;
+}
+
+#text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#selectButton {
+  height: 2em;
+}
+
+#ui {
+  border: 2px solid blue;
+  width: 50%;
+}
+
+#canvas {
+  border: 2px solid black;
 }
 /*# sourceMappingURL=main.css.map */
